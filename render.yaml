@@ -1,10 +1,9 @@
 services:
   - type: web
-    name: discord-bot
-    runtime: python
+    name: your-service-name
+    env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python main.py
-    envVars:
-      - key: discordkey
-        sync: false
-        
+    startCommand: python3 main.py
+    plan: free
+    autoDeploy: true
+
