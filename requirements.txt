@@ -1,0 +1,4 @@
+discord.py
+python-dotenv
+wikipedia
+duckduckgo-search
